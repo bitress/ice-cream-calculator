@@ -1,0 +1,88 @@
+<!-- res/layout/activity_second.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".SecondActivity">
+
+    <!-- Wave background -->
+
+    <!-- CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="375dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="8dp">
+
+        <!-- Card content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="184dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/vanilla" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Additional information -->
+    <TextView
+        android:id="@+id/flavorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:text="Flavor"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/sizeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Size: Medium"
+        android:textSize="20sp"
+        android:layout_below="@+id/cardView"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/toppingsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sizeTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="469dp"
+        android:paddingTop="8dp"
+        android:text="Toppings: Mango Chunks, Marshmallow"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/totalPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp"
+        android:text="Total Price: $5.50"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+</RelativeLayout>

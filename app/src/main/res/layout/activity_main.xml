@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="412dp"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="121dp"
+            android:layout_height="159dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.073"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.152">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/vanillaImage"
+                    android:layout_width="105dp"
+                    android:layout_height="78dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/vanilla"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.049" />
+
+                <TextView
+                    android:id="@+id/vanillaTextView"
+                    android:layout_width="37dp"
+                    android:layout_height="13dp"
+                    android:text="Vanilla"
+                    android:textAlignment="center"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toTopOf="@+id/vanillaButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.047"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.9" />
+
+                <Button
+                    android:id="@+id/vanillaButton"
+                    android:layout_width="40dp"
+                    android:layout_height="28dp"
+                    android:background="#FFF6F6"
+                    android:backgroundTint="#FFF6F6"
+                    android:drawableLeft="@drawable/baseline_shopping_cart_24"
+                    android:elevation="4dp"
+                    android:padding="8dp"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.954" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="121dp"
+            android:layout_height="159dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.152">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/mangoImage"
+                    android:layout_width="105dp"
+                    android:layout_height="77dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mango"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.036" />
+
+                <TextView
+                    android:id="@+id/mangoTextView"
+                    android:layout_width="37dp"
+                    android:layout_height="13dp"
+                    android:text="Mango"
+                    android:textAlignment="center"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toTopOf="@+id/mangoButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.047"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.9" />
+                <Button
+                    android:id="@+id/mangoButton"
+                    android:layout_width="40dp"
+                    android:layout_height="28dp"
+                    android:background="#FFF6F6"
+                    android:backgroundTint="#FFF6F6"
+                    android:drawableLeft="@drawable/baseline_shopping_cart_24"
+                    android:elevation="4dp"
+                    android:padding="8dp"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.954" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="121dp"
+            android:layout_height="159dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.927"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.152">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/mintImage"
+                    android:layout_width="94dp"
+                    android:layout_height="83dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mint"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.47"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/mintTextView"
+                    android:layout_width="37dp"
+                    android:layout_height="13dp"
+                    android:text="Mint"
+                    android:textAlignment="center"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toTopOf="@+id/mintButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.047"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.9" />
+                <Button
+                    android:id="@+id/mintButton"
+                    android:layout_width="40dp"
+                    android:layout_height="28dp"
+                    android:background="#FFF6F6"
+                    android:backgroundTint="#FFF6F6"
+                    android:drawableLeft="@drawable/baseline_shopping_cart_24"
+                    android:elevation="4dp"
+                    android:padding="8dp"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.954" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="121dp"
+            android:layout_height="159dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.073"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ubeImage"
+                    android:layout_width="103dp"
+                    android:layout_height="74dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ube"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.188" />
+
+                <TextView
+                    android:id="@+id/ubeTextView"
+                    android:layout_width="37dp"
+                    android:layout_height="13dp"
+                    android:text="Ube"
+                    android:textAlignment="center"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toTopOf="@+id/ubeButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.047"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.9" />
+                <Button
+                    android:id="@+id/ubeButton"
+                    android:layout_width="40dp"
+                    android:layout_height="28dp"
+                    android:background="#FFF6F6"
+                    android:backgroundTint="#FFF6F6"
+                    android:drawableLeft="@drawable/baseline_shopping_cart_24"
+                    android:elevation="4dp"
+                    android:padding="8dp"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.954" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="121dp"
+            android:layout_height="159dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/strawberryImage"
+                    android:layout_width="94dp"
+                    android:layout_height="74dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/strawberry"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.481"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.188" />
+
+                <TextView
+                    android:id="@+id/strawberryTextView"
+                    android:layout_width="43dp"
+                    android:layout_height="12dp"
+                    android:text="Strawberry"
+                    android:textAlignment="center"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toTopOf="@+id/strawberryButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.047"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.9" />
+                <Button
+                    android:id="@+id/strawberryButton"
+                    android:layout_width="40dp"
+                    android:layout_height="28dp"
+                    android:background="#FFF6F6"
+                    android:backgroundTint="#FFF6F6"
+                    android:drawableLeft="@drawable/baseline_shopping_cart_24"
+                    android:elevation="4dp"
+                    android:padding="8dp"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.954" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="121dp"
+            android:layout_height="159dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.927"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/matchaImage"
+                    android:layout_width="97dp"
+                    android:layout_height="77dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/matcha"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.476"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.171" />
+
+                <TextView
+                    android:id="@+id/matchaTextView"
+                    android:layout_width="37dp"
+                    android:layout_height="13dp"
+                    android:text="Matcha"
+                    android:textAlignment="center"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toTopOf="@+id/matchaButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.047"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.9" />
+                <Button
+                    android:id="@+id/matchaButton"
+                    android:layout_width="40dp"
+                    android:layout_height="28dp"
+                    android:background="#FFF6F6"
+                    android:backgroundTint="#FFF6F6"
+                    android:drawableLeft="@drawable/baseline_shopping_cart_24"
+                    android:elevation="4dp"
+                    android:padding="8dp"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.954" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
